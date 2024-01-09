@@ -23,7 +23,9 @@ AI Universe Hub is a web application that provides information about various AI 
 ## API Links
 
 - All data: [AI Tools API](https://openapi.programming-hero.com/api/ai/tools)
-- Single data details: [Tool Details API](https://openapi.programming-hero.com/api/ai/tool/{id})
+- Single data details:
+  - **Endpoint**: `https://openapi.programming-hero.com/api/ai/tool/{id}`
+  - **Example**: [https://openapi.programming-hero.com/api/ai/tool/01](https://openapi.programming-hero.com/api/ai/tool/01)
 
 ## Installation
 
