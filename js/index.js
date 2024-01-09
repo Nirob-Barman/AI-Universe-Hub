@@ -56,7 +56,9 @@ const processCompanies = (companies) => {
         companyDiv.classList.add('col');
         companyDiv.innerHTML = `
         <div class="card h-100 p-3">
-        <img style="height: 200px" src="${singleCompany.image}" class="card-img-top img-thumbnail" alt="...">
+        <img style="height: 200px" src="${
+          singleCompany.image
+        }" class="card-img-top img-thumbnail" alt="${singleCompany.name}">
         <div class="card-body">
             <h5 class="card-title">Features</h5>
             <p class="card-text">
@@ -72,7 +74,9 @@ const processCompanies = (companies) => {
                   </svg>
                 <small class="text-muted">${singleCompany.published_in}</small>
             </div>
-            <button onclick="loadCompanyModalDetails('${singleCompany.id}')" data-bs-toggle="modal" data-bs-target="#companyModal" class="btn">
+            <button onclick="loadCompanyModalDetails('${
+              singleCompany.id
+            }')" data-bs-toggle="modal" data-bs-target="#companyModal" class="btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
                     class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
